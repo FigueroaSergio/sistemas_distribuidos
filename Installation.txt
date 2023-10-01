@@ -1,0 +1,21 @@
+En virtual box con la machina encendia
+
+1) Devices > Insert Guest Additions
+
+2) En la machina abrir en consola la memoria que se monto
+
+3) sudo ./VBoxLinuxAdditions.run
+
+4) sudo usermod -aG vboxsf <username>
+
+Aquí está desglosado el comando:
+
+sudo: Es un comando que se utiliza en sistemas Unix y Linux para ejecutar otro comando con privilegios de superusuario (root).
+
+usermod: Es un comando que se utiliza para modificar las propiedades de un usuario en el sistema.
+
+-aG: Es un argumento de usermod que se utiliza para agregar un usuario a un grupo específico.
+
+vboxsf: Es el nombre del grupo en este contexto, que es el grupo de VirtualBox Shared Folders.
+
+<username>: Aquí debes reemplazar <username> con el nombre de usuario al que deseas agregar al grupo vboxsf.
