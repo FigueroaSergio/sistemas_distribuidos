@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>ws_rmi_se03</name>
+	<name>prj_rmi_server</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1696316325945</id>
+			<id>1696601991792</id>
 			<name></name>
 			<type>30</type>
 			<matcher>

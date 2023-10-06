@@ -19,3 +19,8 @@ usermod: Es un comando que se utiliza para modificar las propiedades de un usuar
 vboxsf: Es el nombre del grupo en este contexto, que es el grupo de VirtualBox Shared Folders.
 
 <username>: Aquí debes reemplazar <username> con el nombre de usuario al que deseas agregar al grupo vboxsf.
+
+# RMI
+## Start rmi System
+
+rmiregistry -J-Djava.rmi.server.codebase=file://<PathRemoteInterfaces>
