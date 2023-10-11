@@ -21,7 +21,7 @@ class CifradorClient {
     	// Get the initialized property set.
     	com.zeroc.Ice.Properties props = com.zeroc.Ice.Util.createProperties(args);
     	// Set props
-    	//props.setProperty("Ice.Default.Locator", "IceGrid/Locator:tcp -h localhost -p 12000");
+    	props.setProperty("Ice.Default.Locator", "IceGrid/Locator:tcp -h localhost -p 12000");
     	//
     	// Initialize a communicator with these properties.
     	com.zeroc.Ice.InitializationData initData = new com.zeroc.Ice.InitializationData();
@@ -39,8 +39,8 @@ class CifradorClient {
             // This ensures the communicator gets destroyed when the user interrupts the application with Ctrl-C.
             Runtime.getRuntime().addShutdownHook(new Thread(() -> ic.destroy()));
             //
-            com.zeroc.Ice.ObjectPrx base = ic.stringToProxy("Cifrador:default -h localhost -p 10000");
-            //com.zeroc.Ice.ObjectPrx base = ic.stringToProxy("Cifrador@CifradorAdapter");
+            //com.zeroc.Ice.ObjectPrx base = ic.stringToProxy("Cifrador:default -h localhost -p 10000");
+            com.zeroc.Ice.ObjectPrx base = ic.stringToProxy("Cifrador@CifradorAdapter");
             //
             // Show proxy as string
             String ior = ic.proxyToString(base);

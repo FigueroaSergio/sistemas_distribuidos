@@ -6,16 +6,22 @@
  */
 package server;
 
-
+/*
+ * 
+ *  cd /home/sergiok/sdi/iceReg
+ * 	+ nueva terminal
+ * 	icegridregistry --Ice.Config=config.registry
+ * 
+ * */
 public class CifradorServer {
 
 	public static void main(String[] args) {
     	// Get the initialized property set.
     	com.zeroc.Ice.Properties props = com.zeroc.Ice.Util.createProperties(args);
     	// Set props
-    	//props.setProperty("Ice.Default.Locator", "IceGrid/Locator:tcp -h localhost -p 12000");
-    	//props.setProperty("CifradorAdapter.Endpoints", "tcp");
-    	//props.setProperty("CifradorAdapter.AdapterId", "CifradorAdapter");
+    	props.setProperty("Ice.Default.Locator", "IceGrid/Locator:tcp -h localhost -p 12000");
+    	props.setProperty("CifradorAdapter.Endpoints", "tcp");
+    	props.setProperty("CifradorAdapter.AdapterId", "CifradorAdapter");
     	
     	//
     	// Initialize a communicator with these properties.
@@ -30,8 +36,8 @@ public class CifradorServer {
         try (com.zeroc.Ice.Communicator ic = com.zeroc.Ice.Util.initialize(initData)) 
         {
         	//Create adapter.
-        	com.zeroc.Ice.ObjectAdapter adapter = ic.createObjectAdapterWithEndpoints("CifradorAdapter", "default -h localhost -p 10000");
-        	//com.zeroc.Ice.ObjectAdapter adapter = ic.createObjectAdapter("CifradorAdapter");
+        	//com.zeroc.Ice.ObjectAdapter adapter = ic.createObjectAdapterWithEndpoints("CifradorAdapter", "default -h localhost -p 10000");
+        	com.zeroc.Ice.ObjectAdapter adapter = ic.createObjectAdapter("CifradorAdapter");
         	//
         	// Create servant and register it into the adapter.
             com.zeroc.Ice.Object iceObject = new CifradorI();
