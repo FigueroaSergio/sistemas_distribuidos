@@ -10,7 +10,7 @@ import interfaces.echo.EchoInt;
  * +
  * VM parameters (examples)
  * -classpath c:\dya\ws\00_basico\prj-rmi\bin
- * -Djava.rmi.server.codebase=file:///c:/sdi/ws/00_basico/prj-rmi_Interfaces/bin/
+ * -Djava.rmi.server.codebase=file:///home/sergiok/sdi/ws_sergio/prj_rmi_interfaces/bin
  * -Djava.security.policy=politicaRmi.policy
  *
  */

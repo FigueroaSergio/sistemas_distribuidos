@@ -17,7 +17,7 @@ import rmi.ObserverInt;
 import rmi.TriggerInt;
 
 
-
+// antes de correr: rmiregistry -J-Djava.rmi.server.codebase=file:///home/sergiok/sdi/ws_sergio/se03_p2_rmi_cbint/bin/
 public class ObserverRMI implements ObserverInt {
 
 	@Override
