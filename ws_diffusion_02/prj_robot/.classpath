@@ -27,5 +27,7 @@
 	<classpathentry kind="lib" path="/home/sergiok/sdi/Servers/ICE/icessl-3.7.9.jar"/>
 	<classpathentry kind="lib" path="/home/sergiok/sdi/Servers/ICE/icestorm-3.7.9.jar"/>
 	<classpathentry kind="lib" path="/home/sergiok/sdi/Servers/ICE/icestorm-compat-3.7.9.jar"/>
+	<classpathentry kind="lib" path="/home/sergiok/sdi/Tools/activemq/activemq-all-5.17.1.jar"/>
+	<classpathentry kind="lib" path="/home/sergiok/sdi/Servers/ACTIVEMQ/slf4j-api-1.7.36.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -12,7 +12,7 @@ import agencia.datos.Instantanea;
 import agencia.datos.suscripcion;
 import agencia.objetos.CamaraPrx;
 import comm.Difusion;
-
+import comm.DifusionJMS;
 import comm.DifusionMulticast;
 //
 //
@@ -76,7 +76,7 @@ public class RobotSeguidorI implements agencia.objetos.RobotSeguidor {
       //////////////////////////////////////////////////////////////
       sus = camaraProxy.SuscribirRobot(miIOR);
       miid = sus.id;
-      difusion = new DifusionMulticast(sus.iport.ip, sus.iport.port);
+      difusion = new DifusionJMS(sus.iport.ip, sus.iport.port);
       //////////////////////////////////////////////////////////////
       // Bucle: recibir, ...
       while (true) {

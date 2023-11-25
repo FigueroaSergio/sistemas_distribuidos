@@ -43,11 +43,12 @@ public class Prueba {
 
 //------------------------------------------------------------------------------
     public CamaraDifusion(){
-      difusion = new DifusionMulticast(ipyport.ip, ipyport.port);
+      difusion = new DifusionJMS(ipyport.ip, ipyport.port);
       st1.nombre = "Hola 1!"; 
       st2.nombre = "Hola 2!";
       listaEstados.add(st1); 
       listaEstados.add(st2);
+      System.out.println("Iniciando");
       this.start();
     }
 
@@ -77,7 +78,7 @@ public class Prueba {
 
 //------------------------------------------------------------------------------
     public RobotDifusion(){
-      difusion =  new DifusionMulticast(ipyport.ip, ipyport.port);
+      difusion =  new DifusionJMS(ipyport.ip, ipyport.port);
       this.start();
     }
 

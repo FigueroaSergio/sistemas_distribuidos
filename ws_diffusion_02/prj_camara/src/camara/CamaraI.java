@@ -18,6 +18,7 @@ import agencia.datos.Instantanea;
 import agencia.datos.suscripcion;
 import agencia.objetos.RobotSeguidorPrx;
 import comm.Difusion;
+import comm.DifusionJMS;
 import comm.DifusionMulticast;
 
 /**
@@ -91,7 +92,7 @@ public class CamaraI implements agencia.objetos.Camara {
       public Difusor(IPYPort iport) {
         //
         try {
-          difusion = new DifusionMulticast(iport.ip, ipyport.port);
+          difusion = new DifusionJMS(iport.ip, ipyport.port);
         } catch (Exception e) {
           e.printStackTrace();
         }
