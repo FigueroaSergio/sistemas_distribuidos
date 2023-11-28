@@ -1,6 +1,2 @@
 INDEX VERSION 1.4+/home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-9784305.index
-2948504403.index
-3778022180.index
-1207581351.index
-532314999.index
+522598341.index
