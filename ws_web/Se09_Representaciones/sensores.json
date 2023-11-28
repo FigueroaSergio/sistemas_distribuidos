@@ -1,0 +1,19 @@
+{
+    "sensores": [
+        {
+            "description": "Temperatura horno de fermentacion",
+            "id": "T001",
+            "value": 74.0
+        },
+        {
+            "description": "Temperatura horno de coccion",
+            "id": "T002",
+            "value": 145.0
+        },
+        {
+            "description": "Temperatura horno de caramelizado",
+            "id": "T003",
+            "value": 85.0
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sensores>
+    <sensor id="T001">
+        <value>74.0</value>
+        <description>Temperatura horno de fermentacion</description>
+    </sensor>
+    <sensor id="T002">
+        <value>145.0</value>
+        <description>Temperatura horno de coccion</description>
+    </sensor>
+    <sensor id="T003">
+        <value>85.0</value>
+        <description>Temperatura horno de caramelizado</description>
+    </sensor>
+</sensores>
