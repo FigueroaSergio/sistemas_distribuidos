@@ -2278,3 +2278,456 @@ Binding(CTRL+SHIFT+T,
 
 !ENTRY org.eclipse.jst.jsp.core 4 4 2023-11-28 09:54:20.506
 !MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+!SESSION 2023-12-05 12:04:28.096 -----------------------------------------------
+eclipse.buildId=4.28.0.20230608-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-12-05 12:04:36.209
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-12-05 12:04:40.902
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2023-12-05 12:05:01.080
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-05 12:05:01.080
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2023-12-05 12:05:54.140
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2023-12-05 12:16:56.199
+!MESSAGE Server Tomcat v10.1 Server at localhost (2) was unable to start within 120 seconds. If the server requires more time, try increasing the timeout in the server editor.
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-05 12:17:51.049
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-05 12:17:51.083
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-05 12:17:51.114
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-05 12:17:51.135
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-05 12:17:51.619
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-05 12:17:51.746
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-05 12:19:08.658
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-05 12:19:08.773
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-05 12:19:08.908
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-05 12:19:08.959
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-05 12:19:09.429
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-05 12:19:09.662
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wst.server.core 4 0 2023-12-05 12:24:31.748
+!MESSAGE Server Tomcat v10.1 Server at localhost (2) was unable to start within 300 seconds. If the server requires more time, try increasing the timeout in the server editor.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2023-12-05 12:45:40.232
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.232
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/aopalliance-repackaged-3.0.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.232
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/hk2-api-3.0.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.232
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/hk2-locator-3.0.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.232
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/hk2-utils-3.0.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.232
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.activation-api-2.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.232
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.annotation-api-2.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.232
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.inject-api-2.0.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.json-api-2.1.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.json.bind-api-3.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.persistence-api-3.1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.servlet-api-6.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.validation-api-3.0.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.ws.rs-api-3.1.0-sources.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.ws.rs-api-3.1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.xml.bind-api-4.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/javassist-3.29.2-GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jaxb-core-4.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jaxb-impl-4.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jersey-client.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jersey-common.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jersey-container-servlet-core.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jersey-container-servlet.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jersey-hk2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jersey-media-jaxb.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jersey-media-json-binding.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jersey-media-sse.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jersey-server.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/org.osgi.core-6.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/osgi-resource-locator-1.0.3.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/parsson-1.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:45:40.233
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/yasson-3.0.3.jar. May be locked by another process.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/aopalliance-repackaged-3.0.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/hk2-api-3.0.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/hk2-locator-3.0.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/hk2-utils-3.0.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.activation-api-2.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.annotation-api-2.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.inject-api-2.0.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.json-api-2.1.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.json.bind-api-3.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.persistence-api-3.1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.servlet-api-6.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.validation-api-3.0.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.ws.rs-api-3.1.0-sources.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.ws.rs-api-3.1.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jakarta.xml.bind-api-4.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/javassist-3.29.2-GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jaxb-core-4.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jaxb-impl-4.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jersey-client.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jersey-common.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jersey-container-servlet-core.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jersey-container-servlet.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jersey-hk2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jersey-media-jaxb.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jersey-media-json-binding.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jersey-media-sse.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/jersey-server.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/org.osgi.core-6.0.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/osgi-resource-locator-1.0.3.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/parsson-1.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2023-12-05 12:46:41.413
+!MESSAGE Could not delete /home/sergiok/sdi/ws_web/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/se10_rest/WEB-INF/lib/yasson-3.0.3.jar. May be locked by another process.
+
+!ENTRY org.eclipse.wildwebdeveloper.embedder.node 4 0 2023-12-05 12:49:56.345
+!MESSAGE /home/sergiok/sdi/Tools/eclipse/.node/node-v18.16.0-linux-x64/bin/corepack: Operation not permitted
+!STACK 0
+java.nio.file.FileSystemException: /home/sergiok/sdi/Tools/eclipse/.node/node-v18.16.0-linux-x64/bin/corepack: Operation not permitted
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.createSymbolicLink(UnixFileSystemProvider.java:471)
+	at java.base/java.nio.file.Files.createSymbolicLink(Files.java:1069)
+	at org.eclipse.wildwebdeveloper.embedder.node.CompressUtils.extractArchive(CompressUtils.java:90)
+	at org.eclipse.wildwebdeveloper.embedder.node.CompressUtils.unarchive(CompressUtils.java:52)
+	at org.eclipse.wildwebdeveloper.embedder.node.NodeJSManager.getNodeJsLocation(NodeJSManager.java:83)
+	at org.eclipse.wildwebdeveloper.json.JSonLanguageServer.<init>(JSonLanguageServer.java:79)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.lsp4e.LanguageServersRegistry$ExtensionLanguageServerDefinition.createConnectionProvider(LanguageServersRegistry.java:162)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$0(LanguageServerWrapper.java:261)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-05 12:53:18.702
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-05 12:53:18.716
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-05 12:53:18.735
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-05 12:53:18.749
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-05 12:53:19.029
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-05 12:53:19.156
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+!SESSION 2023-12-06 08:00:20.690 -----------------------------------------------
+eclipse.buildId=4.28.0.20230608-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-12-06 08:00:25.508
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-12-06 08:00:28.962
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2023-12-06 08:00:53.498
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-06 08:00:53.498
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2023-12-06 08:01:27.173
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 08:23:11.497
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 08:23:11.506
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 08:23:11.522
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 08:23:11.527
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 08:23:11.723
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 08:23:11.806
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.ui 4 0 2023-12-06 08:25:55.390
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at org.eclipse.jface.internal.text.html.HTMLTextPresenter.updatePresentation(HTMLTextPresenter.java:102)
+	at org.eclipse.jface.text.DefaultInformationControl.setInformation(DefaultInformationControl.java:341)
+	at org.eclipse.jface.text.AbstractInformationControlManager.internalShowInformationControl(AbstractInformationControlManager.java:1153)
+	at org.eclipse.jface.text.AbstractInformationControlManager.presentInformation(AbstractInformationControlManager.java:1120)
+	at org.eclipse.jface.text.AbstractInformationControlManager.setInformation(AbstractInformationControlManager.java:431)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController.computeInformation(AdditionalInfoController.java:567)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformation(AbstractInformationControlManager.java:1091)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController.showInformation(AdditionalInfoController.java:541)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$1.showInformation(AdditionalInfoController.java:478)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer.lambda$1(AdditionalInfoController.java:362)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5040)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4520)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 08:35:47.818
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 08:35:47.823
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 08:35:47.829
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 08:35:47.833
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 08:35:47.917
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 08:35:47.968
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+!SESSION 2023-12-10 16:14:06.443 -----------------------------------------------
+eclipse.buildId=4.28.0.20230608-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-12-10 16:14:20.984
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-12-10 16:14:31.161
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2023-12-10 16:15:46.265
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-10 16:15:46.265
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2023-12-10 16:18:06.223
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.eclipse.ui 4 0 2023-12-10 17:05:48.192
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at org.eclipse.jface.internal.text.html.HTMLTextPresenter.updatePresentation(HTMLTextPresenter.java:102)
+	at org.eclipse.jface.text.DefaultInformationControl.setInformation(DefaultInformationControl.java:341)
+	at org.eclipse.jface.text.AbstractInformationControlManager.internalShowInformationControl(AbstractInformationControlManager.java:1153)
+	at org.eclipse.jface.text.AbstractInformationControlManager.presentInformation(AbstractInformationControlManager.java:1120)
+	at org.eclipse.jface.text.AbstractInformationControlManager.setInformation(AbstractInformationControlManager.java:431)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController.computeInformation(AdditionalInfoController.java:567)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformation(AbstractInformationControlManager.java:1091)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController.showInformation(AdditionalInfoController.java:541)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$1.showInformation(AdditionalInfoController.java:478)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer.lambda$1(AdditionalInfoController.java:362)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5040)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4520)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)

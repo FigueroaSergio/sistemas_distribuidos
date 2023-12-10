@@ -6,9 +6,14 @@
 
 package test;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
+
 import bindings.JsonBind;
 import bindings.XmlBind;
+import datamodel.Person;
 import datamodel.Sensor;
 import datamodel.Sensores;
 
@@ -41,5 +46,17 @@ public class BottomUpMarshal {
 		JsonBind jsonBind = new JsonBind(Sensores.class);
 		jsonBind.toFile(misSensores, "sensores.json");
 		/////////////////////////////////////////////////////////////////
+		
+		JsonBind jsonPersonBind = new JsonBind(Person.class);
+		SimpleDateFormat dateFor = new SimpleDateFormat("MM-dd-yyyy");
+		Person p;
+		try {
+			p = new Person("Sergio", "Figueroa",dateFor.parse("04-26-2001"));
+			jsonPersonBind.toFile(p , "persona.json");
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
 }
