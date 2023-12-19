@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>SDI REST Example</title>
+</head>
+<body>
+
+<h1>Calling REST from Javascript.</h1>
+<hr> <br>
+<form id="callForm" action="">
+Base URL: <input type="text" name="baseURL" value ="http://localhost:8080/se11_sensors/rest/sensors" size="50"> <br> <br>
+Accepted Type: <input type="text" name="acceptedType" value ="application/json">       
+<button type="Button" onclick="getAllSensors()">Get Sensors</button> <br> <br>
+</form>
+
+<hr> <br>
+<strong>Sensor operations...</strong>
+<form id="sensorOperationsForm" action="">
+Sensor identifier: <input type="text" name="ID" > 
+<button type="Button" onclick="getSensor()">Get Sensor</button> 
+<button type="Button" onclick="deleteSensor()">Delete Sensor</button> <br> <br>
+Sample sensor: <input type="checkbox" onchange="handleChange(this);">
+Trigger error: <input type="text" name="error" value ="0.5" size="6"> 
+Min. delay: <input type="text" name="delay" value ="1000">
+</form> 
+
+<hr> 
+<p id="sample"> Here the result of the sampling </p>
+<hr> 
+<p id="result"> Here the synchronous results </p>
+<hr> 
+<script>
+var baseURL = "http://localhost:8080/se11_sensors/rest/sensors";
+var acceptMIME = "application/json"; 
+var id = "T00001";
+var continueSampling = false;
+var valueOld = 0.0; 
+
+function getFormValues() {
+	id = document.getElementById("sensorOperationsForm").elements["ID"].value;
+	baseURL = document.getElementById("callForm").elements["baseURL"].value;
+	acceptMIME = document.getElementById("callForm").elements["acceptedType"].value;
+}
+
+function callGetMethod(url, docummentDumpId) {
+	xmlHttp = new XMLHttpRequest();	
+	xmlHttp.onreadystatechange = function() {
+	    if (this.readyState == 4 && this.status == 200) {
+	    	document.getElementById(docummentDumpId).innerHTML = xmlHttp.responseText;
+	     }
+	 };
+    	xmlHttp.open( "GET", url, true ); // true define async call
+    	xmlHttp.setRequestHeader ("Accept", acceptMIME);
+    	xmlHttp.send();
+}
+
+
+
+function getAllSensors() {
+	//getFormValues();
+	//xmlHttp = new XMLHttpRequest();
+    	//xmlHttp.open( "GET", baseURL, false );
+    	//xmlHttp.setRequestHeader ("Accept", acceptMIME);
+    	//xmlHttp.send( null );
+    	//document.getElementById("result").innerHTML = xmlHttp.responseText;
+
+	getFormValues();
+	var resourceUrl = baseURL;
+	var docDumpId = "result";
+	callGetMethod(resourceUrl, docDumpId);
+
+}
+
+function getSensor() {
+	//getFormValues();
+	//xmlHttp = new XMLHttpRequest();
+    	//xmlHttp.open( "GET", baseURL+"/"+id, false );
+    	//xmlHttp.setRequestHeader ("Accept", acceptMIME);
+    	//xmlHttp.send( null );
+    	//document.getElementById("result").innerHTML = xmlHttp.response;
+
+	getFormValues();
+	var resourceUrl = baseURL+"/"+id;
+	var docDumpId = "result";
+	callGetMethod(resourceUrl, docDumpId);
+}
+
+function handleChange(checkBox) {
+	 if (checkBox.checked) {
+		 continueSampling = true;
+		 getSampleEvent();
+	 } else {
+		 continueSampling = false;
+	 }
+}
+
+
+function getSampleEvent() {
+	getFormValues();
+	var error = document.getElementById("sensorOperationsForm").elements["error"].value;
+	var delay = document.getElementById("sensorOperationsForm").elements["delay"].value;
+	var xmlHttpAsync = new XMLHttpRequest();
+	var resourceUrl = baseURL+"/"+id+"/wait?value="+valueOld+"&error="+error+"&delay="+delay;
+    	xmlHttpAsync.open( "GET",resourceUrl, true ); // true define async call
+    	//Force json in order to simplify response parsing
+    	xmlHttpAsync.setRequestHeader ("Accept", "application/json");
+    	//Set response callback
+    	xmlHttpAsync.onreadystatechange = function() {
+    		if (this.readyState == 4 && this.status == 200) {
+    			if (continueSampling == true) {
+    				document.getElementById("sample").innerHTML = xmlHttpAsync.response;
+    				valueOld = JSON.parse(xmlHttpAsync.response).value;
+    				getSampleEvent(); 
+    			}
+    		} 
+    	};
+    	//Async call
+    	xmlHttpAsync.send( null );
+}
+
+
+function deleteSensor() { 	
+	getFormValues();
+	xmlHttp = new XMLHttpRequest();
+    	xmlHttp.open( "DELETE", baseURL+"/"+id, true);
+    	xmlHttp.send();
+}
+
+
+</script>
+
+</body>
+</html> 
