@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+		<title> SIMPLE Websocket interface</title>
+        <script type="text/javascript" src="./simpleWebsocket.js"></script> 
+</head>
+<body>
+
+<h1>Simple Sensor Websocket example.</h1>
+<hr> <br>
+<form id="callForm" action="">
+	Base URL: <input type="text" name="baseURL" value ="ws://localhost:8080/prj-ws_simple/sensor" size="50"> <br> <br>    
+
+</form>
+
+<form id="tvForm" action="">
+    	<input id="connect" type="button" value="WebSocket Connect"  onclick="webSocketConnect();"/> 
+    	<input id="close" type="button" value="WebSocket Close"  onclick="webSocketClose();"/> 
+        <input id="start" type="button" value="start"  onclick="formStart();" disable="true"/>
+        <input id="stop" type="button" value="stop" onclick="formStop();" disable="true"/>
+</form>
+
+<hr> <br>
+
+<hr> 
+	<p id="SensorValue"> Here the SensorValue results </p>
+<hr> <hr> 
+
+</body>
+</html> 
