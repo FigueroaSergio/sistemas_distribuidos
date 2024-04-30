@@ -24,3 +24,11 @@ vboxsf: Es el nombre del grupo en este contexto, que es el grupo de VirtualBox S
 ## Start rmi System
 
 rmiregistry -J-Djava.rmi.server.codebase=file://<PathRemoteInterfaces>
+
+icegridregistry --Ice.Config=config.registry
+
+java ava -Dorg.apache.activemq.SERIALIZABLE_PACKAGES=* -jar <file>.jar // con JMS
+
+run activemq
+cd /Tools/activemq/bin
+./activemq start
